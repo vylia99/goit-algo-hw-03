@@ -27,5 +27,3 @@ def get_numbers_ticket(min, max, quantity):
     else:
         return  my_list
     
-def normalize_phone(phone_number):
-    pass
