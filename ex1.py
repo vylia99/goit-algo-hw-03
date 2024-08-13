@@ -6,7 +6,7 @@ def get_days_from_today(date):
     try:
         new_date = datetime.strptime(date, "%Y-%m-%d").date()
     except ValueError:
-         print(f"Date format for '{date}' is incorrect. Expected format is 'YYYY-MM-DD'.function")
+         print(f"Date format for '{date}' is incorrect. Expected format is 'YYYY-MM-DD'")
     finally:
         print('-'*30)
     
